@@ -1,16 +1,49 @@
 🌍 Earthquake & Tsunami Analysis
+📘 Overview
 
-This project explores global earthquake data to uncover trends, patterns, and the relationship between earthquakes and tsunamis. Visualizations and statistics provide insights for risk assessment and disaster preparedness.
+This project analyzes global earthquake data to uncover trends, patterns, and the relationship between earthquakes and tsunamis.
+Through visualizations and statistical insights, it supports better understanding of disaster risk assessment and preparedness planning.
 
-🔹 Key Insights
+🎯 Objectives
 
+Identify the year with the highest number of earthquakes
+
+Find the most frequent earthquake magnitude
+
+Calculate the percentage of earthquakes that caused tsunamis
+
+Determine the average number of tsunamis per year
+
+Compare tsunami vs non-tsunami earthquakes per year
+
+Analyze depth vs magnitude and their role in triggering tsunamis
+
+📂 Dataset Information
+
+File: earthquake_data_tsunami.csv
+
+Key Columns:
+
+Year – Year of occurrence
+
+Month – Month of occurrence
+
+Magnitude – Intensity of the earthquake
+
+Depth – Depth of the earthquake (in km)
+
+Latitude / Longitude – Geographical location
+
+Tsunami – Indicates if a tsunami occurred (1 = Yes, 0 = No)
+
+📊 Key Insights
 📅 Year with Most Earthquakes
 
 2015 recorded the highest number of earthquakes globally.
 
 📏 Most Frequent Magnitude
 
-Magnitude 6.5 was the most common.
+Magnitude 6.5 occurred most often.
 
 🌊 Earthquakes Resulting in Tsunamis
 
@@ -22,30 +55,34 @@ On average, 30% of yearly earthquakes caused tsunamis.
 
 ⚡ Tsunami vs Non-Tsunami Earthquakes (Post-2012)
 
-After 2012, the likelihood of an earthquake triggering a tsunami is very high.
+After 2012, the likelihood of an earthquake triggering a tsunami is significantly higher.
 
 📉 Depth vs Magnitude Analysis
 
-Scatter Plot Observations:
+Red points → Earthquakes causing tsunamis (high magnitude, shallow depth)
 
-Earthquakes causing tsunamis: higher magnitudes, shallower depths.
+Blue points → Non-tsunami earthquakes (wider depth and magnitude range)
 
-Non-tsunami earthquakes: widely spread across various magnitudes and depths.
+📈 Visualizations Included
 
-📈 Visualization
+Histogram of earthquakes per year
 
-Depth vs Magnitude Scatter Plot (colored by tsunami occurrence)
+Magnitude distribution over time
 
-🔴 Red points → Earthquakes causing tsunamis
+Correlation heatmap of numerical features
 
-🔵 Blue points → Non-tsunami earthquakes
+Pair plots to visualize yearly magnitude patterns
 
-📝 Summary
+Depth vs Magnitude scatter plot (colored by tsunami occurrence)
+
+Count plots comparing tsunami vs non-tsunami events
+
+💡 Summary
 
 Higher magnitude and shallow-depth earthquakes are more likely to generate tsunamis.
 
-The year 2015 had peak earthquake activity.
+2015 had the peak earthquake activity globally.
 
-Tsunami probability has increased significantly since 2012.
+The probability of tsunamis has increased notably after 2012.
 
-This analysis provides valuable insights for disaster management and earthquake preparedness planning.
+Correlation heatmaps show strong links between magnitude, depth, and tsunami occurrence.
