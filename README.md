@@ -22,6 +22,8 @@ Analyze depth vs magnitude and their role in triggering tsunamis
 
 File: earthquake_data_tsunami.csv
 
+Source: Kaggle
+
 Key Columns:
 
 Year – Year of occurrence
